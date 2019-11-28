@@ -1,3 +1,5 @@
+/* begin title page and main CSS */
+
 :root {
     background-color: lightgray;
     font-size: 60%;
@@ -37,12 +39,24 @@ h3 {
 
 .container {
     width: 100vw;
-    height: 100vh; 
+    height: 93vh;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 80rem;
     margin: 0 auto;
+}
+
+.topContainer {
+    width: 100vw;
+    height: 5vh; 
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 10px;
 }
 
 .container > * {
@@ -68,9 +82,9 @@ h3 {
 }
 
 .button {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding: 1rem 0;
-    width: 20rem; 
+    width: 10rem; 
     text-align: center;
     border: .1rem solid goldenrod;
     margin-bottom: 1rem;
@@ -79,9 +93,30 @@ h3 {
     background-color: white;
 }
 
-.button:hover {
+/* start of game page CSS */
+
+.button:hover, .choice-container:hover {
     cursor: pointer;
     box-shadow: 0 .4rem 1.4rem 0 grey;
     transition: transform 150ms; 
 }
+/* start of game page CSS */
 
+.choice-container {
+    display: flex; 
+    margin-bottom: 0.5rem; 
+    width: 100%;
+    font-size: 1.8rem;
+    border: o.1rem solid rgb(86,165,235, 0.25);
+    background-color: white; 
+}
+
+.choice-letter {
+    padding: 1.5rem 2.5rem;
+    background-color: #56a5eb;
+    color: white; 
+}
+
+.choice-text {
+    padding: 1.5rem; 
+}
