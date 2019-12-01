@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Highscores!</title>
+    <link rel="stylesheet" href="quiz.css" />
 </head>
+
 <body>
-    
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <label>Score + Remaining Time:</label>
+            <h1 id="finalTimeAndScore"></h1>
+            <form>
+                <input 
+                type="text" 
+                name="username"
+                id="username"
+                placeholder="username"
+                />
+                <button 
+                type="submit" 
+                class="button" 
+                id="saveScoreBtn"
+                onclick="saveHighScore(event)"
+                disabled
+                >
+                Submit</button>
+            </form>
+            <a class="button" href="quiz.html">Replay!</a>
+            <a class="button" href="https://s3-ap-southeast-1.amazonaws.com/images.humanresourcesonline.net/wp-content/uploads/2014/06/Sabrina-Zolkifi-June-2014-quit-button-keyboard-shutterstock.jpg">Quit!</a>
+        </div>
+    </div>
+    <script src="end.js"></script>   
 </body>
+
 </html>
