@@ -61,6 +61,7 @@ h3 {
 
 .container > * {
     width: 100%;
+    padding: 2rem;
 }
 
 .flex-column {
@@ -109,6 +110,7 @@ h3 {
     font-size: 1.8rem;
     border: o.1rem solid rgb(86,165,235, 0.25);
     background-color: white; 
+    
 }
 
 .choice-letter {
@@ -118,5 +120,6 @@ h3 {
 }
 
 .choice-text {
-    padding: 1.5rem; 
+    padding: 1.5rem;
+    width: 100%; 
 }
