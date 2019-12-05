@@ -167,6 +167,9 @@ input {
     box-shadow: 0 0.1rem 1.4rem 9 rgba(86, 185, 235, 0.5);
 }
 
-.highScoresList {
-    color: lightseagreen; 
+.highScoresList { 
+    padding-left: 0; 
+    margin-bottom: 4rem; 
+    font-size: 2rem; 
+    text-align: center;
 }
