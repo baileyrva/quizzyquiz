@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Highscores!</title>
     <link rel="stylesheet" href="quiz.css" />
-    
+
 </head>
 
 <body>
@@ -16,27 +16,17 @@
             <label>Score + Remaining Time:</label>
             <h1 id="finalTimeAndScore"></h1>
             <form>
-                <input 
-                type="text" 
-                name="username"
-                id="username"
-                placeholder="username"
-                />
-                <a  
-                type="submit" 
-                class="button leaderboard"
-                href="./highscores.html" 
-                id="saveScoreBtn"
-                onclick="saveHighScore(event)"
-                disabled
-                >
-                Submit</a>
+                <input type="text" name="username" id="username" placeholder="username" />
             </form>
+            <a type="submit" class="button leaderboard" href="highscores.html" id="saveScoreBtn"
+                onclick="saveHighScore(event)" disabled>
+                Submit</a>
             <a class="button" href="quiz.html">Replay!</a>
-            <a class="button" href="https://s3-ap-southeast-1.amazonaws.com/images.humanresourcesonline.net/wp-content/uploads/2014/06/Sabrina-Zolkifi-June-2014-quit-button-keyboard-shutterstock.jpg">Quit!</a>
+            <a class="button"
+                href="https://s3-ap-southeast-1.amazonaws.com/images.humanresourcesonline.net/wp-content/uploads/2014/06/Sabrina-Zolkifi-June-2014-quit-button-keyboard-shutterstock.jpg">Quit!</a>
         </div>
     </div>
-    <script src="end.js"></script>   
+    <script src="end.js"></script>
 </body>
 
 </html>
