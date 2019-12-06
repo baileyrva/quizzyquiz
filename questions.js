@@ -120,7 +120,7 @@ decrementTime = () => {
     timer.innerHTML = time;
   }
   if (time < 1) {
-    return window.location.assign("/index.html");  
+    return window.location.assign("index.html");  
   }
 }
 update = setInterval("decrementTime()", 1000)
