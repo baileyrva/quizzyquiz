@@ -13,4 +13,4 @@ Functionality
 
 The quiz prompts the user with a multiple choice question as a timer counts up. The faster and more accurate the player, the higher the score. Wrong answers are penalized five seconds off of the total time. Best time wins, and users can enter their initials to view themselves on the leaderboard!
 
-Deployed Website: https://baileyrva.github.io/quizzyquiz/index.html
+![image](https://user-images.githubusercontent.com/56370824/76031629-0fef3980-5f06-11ea-8f04-3add778eca6d.png)
